@@ -88,6 +88,3 @@ if st.button("Generate Pricing", use_container_width=True):
         elif len(active_odds) == 3:
             st.info("💡 Enter a 4th Horse value to calculate the full SRM Permutation Odds.")
 
-# Footer styling
-st.markdown("---")
-st.caption("Standalone Desktop Ready • Geometry-Weighted Monte Carlo Engine")
